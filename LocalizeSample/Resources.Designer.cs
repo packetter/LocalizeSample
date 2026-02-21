@@ -61,6 +61,15 @@ namespace LocalizeSample {
         }
         
         /// <summary>
+        ///   新タイトル に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string NewTitle {
+            get {
+                return ResourceManager.GetString("NewTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   タイトル{0} に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Title {
