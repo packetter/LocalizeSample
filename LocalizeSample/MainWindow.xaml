@@ -15,6 +15,7 @@
     <StackPanel>
         <!--<TextBlock Text="{lex:Loc Title}"/>-->
         <TextBlock Text="{Binding FormattedTitle}" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="{lex:Loc NewTitle}" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <!--<TextBlock Text="{lex:Loc {Binding TitleKey}}" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>-->
     </StackPanel>
 </Window>
